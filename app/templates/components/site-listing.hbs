@@ -1,0 +1,26 @@
+<div class="tile__slider">
+  <a href="/sites/{{site.id}}"class="tile tile_card">
+      <div class="tile__image">
+        <a class="img-container" {{action 'toggleImageSize'}}>
+          <img src="{{site.image}}" alt="">
+        </a>
+      </div>
+      <div class="tile__content">
+      <div class="tile__info">
+          <h3 class="tile__title">{{site.title}}</h3>
+          <p class="tile__copy">
+            <span>Website:</span> <a href="{{site.url}}" target="_blank" >{{site.url}}</a>
+              <i class="icon icon_arrow"></i>
+          </p>
+      </div>
+      <ul class="tile__stats stats">
+          <li class="stats__item" title="Published">
+              <i class="icon icon_clock"></i> Nov, 13
+          </li>
+          <!-- <li class="stats__item" title="Views">
+              <i class="icon icon_view"></i> 26
+          </li> -->
+      </ul>
+      </div>
+  </a>
+</div>
