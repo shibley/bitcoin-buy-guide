@@ -1,9 +1,9 @@
 <div class="container">
-    {{#link-to 'index'}}
+    <!-- {{#link-to 'index'}}
       <h1>
         Bitcoin Buy Guide
       </h1>
-    {{/link-to}}
+    {{/link-to}} -->
 </div>
 <div class="body-bag">
   <header class="page-head">
@@ -12,8 +12,13 @@
         <h1 class="page-head__logo">
           <a href="/" rel="index">
             <span class="sr-only">Bitcoin Buy Guide</span>
-            <img src="{{rootURL}}/assets/images/teaching.png" alt="Bitcoin-Buy-Guide" />
+            <img src="{{rootURL}}/assets/images/teaching.png" alt="Bitcoin-Buy-Guide" height="50px;" />
           </a>
+        </h1>
+        <h1 class="nav-primary__item">
+          {{#link-to 'index'}}
+          Bitcoin Buy Guide
+          {{/link-to}}
         </h1>
         <nav class="nav-primary">
           <div class="nav-primary__inner">
